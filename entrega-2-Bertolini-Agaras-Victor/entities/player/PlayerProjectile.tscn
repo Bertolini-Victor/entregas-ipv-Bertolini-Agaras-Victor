@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[ext_resource type="PackedScene" path="res://entities/projectile/Projectile.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://cto12rxrnhlot" path="res://assets/textures/proyectile_player.png" id="2"]
+
+[node name="PlayerProjectile" instance=ExtResource( 1 )]
+texture = ExtResource( 2 )
